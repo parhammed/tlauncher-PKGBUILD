@@ -1,0 +1,20 @@
+pkgbase = tlauncher
+	pkgdesc = TLAUNCHER – THE BEST MINECRAFT LAUNCHE
+	pkgver = 16
+	pkgrel = 1
+	url = https://tlauncher.org/
+	arch = any
+	license = none
+	depends = jdk8-openjdk
+	depends = jre8-openjdk
+	depends = jre8-openjdk-headless
+	conflicts = tlauncher
+	options = !debug
+	source = tlauncher.zip::https://dl1.tlauncher.org/f.php?f=files%2FTLauncher.v16.zip
+	source = tlauncher.desktop
+	source = tlauncher.png
+	sha512sums = 7151fb3739d394775b4c3400524af9442a09b25fbc59778b9dfcc23d976fd5f463eca7e05a2dcd3d8b7a769bee55b28e216769e604dd243629f9b3b519d32cb6
+	sha512sums = 2a363f472e74394a4deabaf1df06d6915ae9bcfb39a15c88bbd3eb07092524571f105440965b0f639714e8e76fe11251b36436aefe2a2cb5f170a7df6098e84b
+	sha512sums = 663874b9a5fa10ceb794b30e66f7ab87820b80cfe136b967b492074e7dbce4173860e344c46cb25d2b8a52ea8a8ff2abfafaad9276462dcd4dd1b3e55819d9ac
+
+pkgname = tlauncher
